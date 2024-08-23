@@ -6,6 +6,7 @@
     <title>Personalised voice messages for you from us</title>
     <link rel="icon" type="image/x-icon" href="music.svg" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module"></script>
   </head>
   <body>
     <section class="section1">
@@ -24,7 +25,8 @@
       <div class="container">
         <div class="box" id="one">
           <ul>
-            <li class="brand">
+           
+         <li class="brand">
               <img src="logo.svg" alt="none" srcset="" />
             </li>
             <button class="home"><b>Home</b></button>
@@ -80,10 +82,8 @@
                 <p class="text">happyy birthdayy</p>
 
                 <div class="play">
-                  <img id="play-button1" src="play.svg" alt="play" srcset="" />
-                  <video controls="" autoplay="" name="media">
-                        <source src="./2.mp3" type="audio/mp3">
-                  </video>
+                  <img id="play-button1" src="play.svg" alt="play" class="playbutton" srcset="" />
+                  <audio class="audioplayer" id="audio1" src="./1.mp3"></audio>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@
                 <h3>Digangana</h3>
                 <p class="text">Sending love</p>
                 <div class="play">
-                  <img id="play-button2" src="play.svg" alt="play" srcset="" />
+                  <img id="play-button2" src="play.svg" alt="play" class="playbutton" srcset="" />
                   <audio class="audioplayer" id="audio2" src="./3.mp3"></audio>
                 </div>
               </div>
@@ -104,7 +104,7 @@
                 <h3>Reecha</h3>
                 <p class="text">Roaring twenties</p>
                 <div class="play">
-                  <img id="play-button3" src="play.svg" alt="play" srcset="" />
+                  <img id="play-button3" src="play.svg" alt="play" class="playbutton" srcset="" />
                   <audio class="audioplayer" id="audio3" src="./5.mp3"></audio>
                 </div>
               </div>
@@ -121,7 +121,7 @@
                 <h3>Uddhav</h3>
                 <p class="text">Xubho jonmodin</p>
                 <div class="play">
-                  <img id="play-button4" src="play.svg" alt="play" srcset="" />
+                  <img id="play-button4" src="play.svg" alt="play" class="playbutton" srcset="" />
                   <audio class="audioplayer" id="audio4" src="4.mp3"></audio>
                 </div>
               </div>
@@ -132,7 +132,7 @@
                 <h3>Kasish</h3>
                 <p class="text">Jeete raho</p>
                 <div class="play">
-                  <img id="play-button5" src="play.svg" alt="play" srcset="" />
+                  <img id="play-button5" src="play.svg" alt="play" class="playbutton" srcset="" />
                   <audio class="audioplayer" id="audio5" src="./2.mp3"></audio>
                 </div>
               </div>
@@ -230,6 +230,6 @@
     </div>
     </section>
 
-    <script src="script.js"></script>
+    
   </body>
 </html>
