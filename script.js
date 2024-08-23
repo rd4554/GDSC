@@ -1,14 +1,4 @@
-// const btnn = document.querySelector('.playbutton');
 
-// let context;
-// window.onload = function(){
-//     context= new AudioContext();
-// }
-// btnn.addEventListener('click',()=>{
-//     context.resume().then(()=>{
-
-//     });
-// });
 
 const promptButton = document.getElementById("aa");
 
@@ -40,8 +30,7 @@ const audio1 = document.getElementById("audio1");
 button1.addEventListener("click", () => {
   audio1.play();
 });
-//     });
-// });
+
 
 const button2 = document.getElementById("play-button2");
 const audio2 = document.getElementById("audio2");
@@ -108,16 +97,6 @@ musicImage.addEventListener("click", () => {
   }
 });
 
-var video = document.getElementById("myVideo");
 
-var btn = document.getElementById("myBtn");
 
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+
