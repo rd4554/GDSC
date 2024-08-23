@@ -1,3 +1,11 @@
+function touchStarted(){
+    getAudioContext().resume();
+}
+
+
+
+
+
 const promptButton = document.getElementById('aa');
 
 promptButton.addEventListener('click', () => {
