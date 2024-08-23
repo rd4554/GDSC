@@ -1,9 +1,9 @@
-const btnn = document.querySelector('.playbutton');
+// const btnn = document.querySelector('.playbutton');
 
-let context;
-window.onload = function(){
-    context= new AudioContext();
-}
+// let context;
+// window.onload = function(){
+//     context= new AudioContext();
+// }
 // btnn.addEventListener('click',()=>{
 //     context.resume().then(()=>{
 
@@ -37,15 +37,15 @@ promptBtn.addEventListener('click', () => {
 const button1 = document.getElementById('play-button1');
 const audio1 = document.getElementById('audio1');
 
-btnn.addEventListener('click',()=>{
-    context.resume().then(()=>{
+// btnn.addEventListener('click',()=>{
+//     context.resume().then(()=>{
 
         button1.addEventListener('click', () => {
     
             audio1.play(); 
     });
-    });
-});
+//     });
+// });
 
 const button2 = document.getElementById('play-button2');
 const audio2 = document.getElementById('audio2');
