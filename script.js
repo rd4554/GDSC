@@ -3,7 +3,7 @@ const promptButton = document.getElementById('aa');
 promptButton.addEventListener('click', () => {
     const userInput = prompt('Please enter your name:');
     if (userInput != null) {
-        alert(`Hello, ${userInput}!`);
+        alert(`Hello, ${userInput}!`)   ;
     } else {
         alert('Try again');
     }
