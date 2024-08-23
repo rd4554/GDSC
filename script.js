@@ -1,9 +1,6 @@
-function touchStarted(){
-    getAudioContext().resume();
-}
-
-
-
+// function touchStarted(){
+//     getAudioContext().resume();
+// }
 
 
 const promptButton = document.getElementById('aa');
@@ -34,13 +31,15 @@ const audio1 = document.getElementById('audio1');
 
 
 button1.addEventListener('click', () => {
-    audio1.play(); 
+    const audioContext1 = new AudioContext();
+        audio1.play(); 
 });
 const button2 = document.getElementById('play-button2');
 const audio2 = document.getElementById('audio2');
 
 
 button2.addEventListener('click', () => {
+    const audioContext2 = new AudioContext();
     audio2.play(); 
 });
 const button3 = document.getElementById('play-button3');
@@ -48,6 +47,7 @@ const audio3= document.getElementById('audio3');
 
 
 button3.addEventListener('click', () => {
+    const audioContext3 = new AudioContext();
     audio3.play(); 
 });
 const button4 = document.getElementById('play-button4');
@@ -55,12 +55,14 @@ const audio4 = document.getElementById('audio4');
 
 
 button4.addEventListener('click', () => {
+    const audioContext4 = new AudioContext();
     audio4.play(); 
 });
 const button5 = document.getElementById('play-button5');
 const audio5 = document.getElementById('audio5');
 
 button5.addEventListener('click', () => {
+    const audioContext5 = new AudioContext();
     audio5.play(); })
 
 
